@@ -734,11 +734,11 @@ export const projects = [
   {
     id: "project-9",
     title: "Fire detection ",
-    github: "https://github.com/mittal-parth/Freadom",
-    link: "",
+    // github: "https://github.com/mittal-parth/Freadom",
+    // link: "",
     image: fire,
     content:
-      "A simple tool to scrape articles. Works even on websites that dont allow users to read the content without logging in.",
+      "A simple tool to help people to detect fire from the Cameras.",
     stack: [
       {
         id: "icon-6",
