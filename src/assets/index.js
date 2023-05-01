@@ -59,7 +59,9 @@ import itacade from "./itacade.png"
 import lycee from "./lycee.jpg"
 import  diss from "./diss.jpg"
 import diss1 from "./diss1.png"
+import amideast from "./amideast.png"
 export {
+  amideast,
   diss1,
   diss,
   lycee,

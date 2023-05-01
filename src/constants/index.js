@@ -3,6 +3,7 @@ import {
   binance,
   coinbase,
   dropbox,
+  amideast,
 
 
   portfolio,
@@ -67,10 +68,10 @@ import {
 import {DiCss3, DiJavascript1, DiMsqlServer, DiRuby} from "react-icons/di";
 import {IoLogoReact} from "react-icons/all.js";
 
-export const resumeLink = "https://drive.google.com/file/d/1fjJO5tSlObCaUXR3kr4Or-2538BfSSEf/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "";
+export const repoLink = "";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "";
 
 export const navLinks = [
   {
@@ -107,6 +108,15 @@ export const educationList = [
     degree: "Software Enginner",
     duration: "December 2021 - May 2024",
     content1: "After completing the preparatory classes (CPGE), I joined the Mohammadia School of Engineering in Rabat in the IT and digitalization sector, A high-level technical training and a solid paramilitary regime allowed me to develop several skills and life techniques such as discipline...etc",
+    //content2: "Minor: Information Technology",
+  },
+  {
+    id: "education-1",
+    icon: amideast,
+    title: "Amideast",
+    degree: "High English level",
+    duration: "December 2022 - May 2023",
+    content1: " Amideast is an American nonprofit organization that works to build mutual understanding and cooperation between Americans and the peoples of the Middle East and North Africa, and to provide learning and training opportunities",
     //content2: "Minor: Information Technology",
   },
   {
