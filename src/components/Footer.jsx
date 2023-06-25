@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { socialMedia, aboutMe } from "../constants";
-import {profile, profilePic} from "../assets";
+import {profile, profilePic,driss_professionel_picture} from "../assets";
 import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
@@ -51,9 +51,9 @@ const Footer = () => (
 
       <div className="md:ml-auto mt-10 md:mt-0">
         <img
-          src={profile}
+          src={driss_professionel_picture}
           alt="ATTOUMI DRISS"
-          className="w-[400px] h-[400px] border-2 border-teal-200 relative z-[5] rounded-full"
+          className="w-[400px] h-[400px] border-4 border-teal-500 relative z-[5] rounded-full"
         />
       </div>
     </div>

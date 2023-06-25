@@ -4,7 +4,7 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-
+import driss_professionel_picture from "./driss_professionel_picture.jpeg";
 import profilePic from "./profile-pic.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -63,6 +63,7 @@ import amideast from "./amideast.png"
 export {
   amideast,
   diss1,
+  driss_professionel_picture,
   diss,
   lycee,
   itacade,

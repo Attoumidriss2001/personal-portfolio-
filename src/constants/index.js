@@ -6,6 +6,8 @@ import {
   amideast,
 
 
+driss_professionel_picture,
+
   portfolio,
   publiclab,
 
@@ -28,6 +30,7 @@ import {
   SiJavascript,
   SiBootstrap,
   SiReact,
+  
 
   SiTailwindcss,
   SiGraphql,
