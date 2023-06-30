@@ -348,7 +348,7 @@ export const experiences = [
   {
     organisation: "Internship," +
         "\n" +
-        "Province of Khouribga ",
+        "Interior Ministry ",
     logo: province,
     link: "https://iris.nitk.ac.in/about_us",
     positions: [
@@ -357,11 +357,12 @@ export const experiences = [
         duration: "august 2022 ",
         content: [
           {
-            text: "This internship allowed me to develop my professional skills through creating a desktop application " +
-                "to manage internships, observing professionals in real-life situations, and being involved in multiple" +
-                " projects that gave me significant responsibility. This experience enabled me to develop skills in programming," +
-                " project management, " +
-                "communication, planning, and problem-solving, which will be useful for my future career.",
+            text: "During my internship, I had the invaluable opportunity to enhance my professional skills through various" +
+                " activities. One notable achievement was the creation of a desktop application dedicated to managing " +
+                "internships. This hands-on experience allowed me to apply my programming skills and gain practical knowledge " +
+                "in software development.\n" +
+                "I am confident that the skills I acquired during this internship, including programming, project management, communication, " +
+                "planning, and problem-solving, will be instrumental in shaping my future career trajectory.",
             link: "",
           },
         ],
@@ -388,59 +389,17 @@ export const experiences = [
       // },
     ],
   },
-  {
-    organisation: "Internship, Urban Agency of Skhirate-Témara",
-    logo: agtemera,
-    link: "https://cdc.nitk.ac.in/",
-    positions: [
-      {
-        // title: "Lead Developer",
-        duration: "July 2022",
-        content: [
-          {
-            text: "  this internship allowed  me to  know the  importance of security in society cannot be overstated, especially in the digital age. With the rise in cybercrime, securing personal and confidential information has become paramount",
-            link: "",
-          },
-          // {
-          //   text: "Setup an admin interface for dynamic content management by different stakeholders.",
-          //   link: "",
-          // },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Membre in EMI-CATRONIC club",
-    logo: emicatronic,
-    link: "https://cdc.nitk.ac.in/",
-    positions: [
-      {
-       // title: "Lead Developer",
-        duration: "Septembre 2022",
-        content: [
-          {
-            text: "Being a membre  in the EMI Catronic club taught me  valuable skills in communication, social connections, and explaining ideas. These skills are useful in personal and professional life, helping me  better listen, communicate, and persuade others.",
-            link: "",
-          },
-          // {
-          //   text: "Setup an admin interface for dynamic content management by different stakeholders.",
-          //   link: "",
-          // },
-        ],
-      },
-    ],
-  },
   // {
-  //   organisation: "Membre in IT Academi club",
-  //   logo: cdc,
+  //   organisation: "Internship, Urban Agency of Skhirate-Témara",
+  //   logo: agtemera,
   //   link: "https://cdc.nitk.ac.in/",
   //   positions: [
   //     {
-  //       //title: "Lead Developer",
-  //       duration: "Septembre 2022",
+  //       // title: "Lead Developer",
+  //       duration: "July 2022",
   //       content: [
   //         {
-  //           text: "Participating in the EMI Catronic club taught me  valuable skills in communication, social connections, and explaining ideas. These skills are useful in personal and professional life, helping me  better listen, communicate, and persuade others.",
+  //           text: "  this internship allowed  me to  know the  importance of security in society cannot be overstated, especially in the digital age. With the rise in cybercrime, securing personal and confidential information has become paramount",
   //           link: "",
   //         },
   //         // {
@@ -452,6 +411,49 @@ export const experiences = [
   //   ],
   // },
   {
+    organisation: "Membre in EMI-CATRONIC club",
+    logo: emicatronic,
+    link: "https://cdc.nitk.ac.in/",
+    positions: [
+      {
+       // title: "Lead Developer",
+        duration: "Septembre 2022",
+        content: [
+          {
+            text: "Active membership in the EMI Catronic club has been instrumental in cultivating essential skills that have enriched both my personal and professional life. Primarily, it has significantly enhanced my communication abilities, allowing me to effectively express ideas and thoughts.\n" +
+                "\n" +
+                "By actively participating in the club's activities, I have developed strong interpersonal skills, enabling me to build and maintain meaningful social connections. Through interactions with fellow members, I have learned the art of active listening, fostering a deeper understanding of others' perspectives and fostering a collaborative environment.",
+            link: "",
+          },
+
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Membre in IT Academi club",
+    logo: cdc,
+    link: "https://cdc.nitk.ac.in/",
+    positions: [
+      {
+        //title: "Lead Developer",
+        duration: "Septembre 2022",
+        content: [
+          {
+            text: "During my academic journey, I had the privilege of being an active member of the IT Academy. This invaluable experience exposed me to a vibrant learning environment focused on various aspects of information technology. As a member, I immersed myself in a wide range of activities that greatly expanded my knowledge and skills in the field.\n" +
+                "\n" +
+                "At the IT Academy, I had the opportunity to participate in specialized training sessions and engaging workshops. These immersive experiences deepened my understanding of fundamental IT concepts and cutting-edge technologies. Through hands-on practice and interactive learning, I honed my technical proficiency and stayed up to date with the latest industry trends.",
+            link: "",
+          },
+          // {
+          //   text: "Setup an admin interface for dynamic content management by different stakeholders.",
+          //   link: "",
+          // },
+        ],
+      },
+    ],
+  },
+  {
     organisation: "Math content teacher",
     logo: math,
     link: "https://attoumidriss2001.github.io/Portfolio/",
@@ -461,7 +463,9 @@ export const experiences = [
         duration: "2020-2022",
         content: [
           {
-            text: "I am a math expert with several years of experience as a math assistant. Over the years, I have helped hundreds of students understand and solve complex math problems, ranging from basic math to advanced math. I have a strong background in teaching math and creating an engaging and interactive learning environment for students.\n" +
+            text: "With extensive experience as a math assistant, I have established myself as a proficient math expert. Throughout several years, I have had the privilege of assisting numerous students in comprehending and conquering challenging math problems, spanning from fundamental concepts to advanced topics.\n" +
+                "\n" +
+                "My expertise in teaching mathematics is deeply rooted, allowing me to create a dynamic and captivating learning atmosphere for students. By employing various techniques and resources, I ensure that the learning process is not only informative but also engaging and interactive." +
                 "\n",
             link: "",
           },
@@ -959,8 +963,9 @@ export const aboutMe = {
         "I am genuinely interested in learning about your experiences, interests, and perspectives. " +
         "Please don't hesitate to reach out and connect with me. " +
         "I am open-minded and eager to get to know you better. Thank you for your time, and I hope to hear from you soon.",
-    intro: "I am passionate about programming and I have a solid development experience with Java and Angular.\n" +
-        "            I also have knowledge in cybersecurity, which allows me to design and develop safe and secure computer systems. In addition,\n" +
-        "            I am able to work in a team and communicate effectively with my colleagues. In short, I am a dynamic and motivated person who likes\n" +
-        "            to stay up to date with the latest technological trends."
+    intro: "As a software engineer with a deep interest in development and cloud computing, I am a dedicated" +
+        " professional who combines technical expertise with a passion for creating innovative solutions. With a strong grasp " +
+        "of software development principles and methodologies, I excel in designing, building, and maintaining robust" +
+        " applications. My skills extend to the realm of cloud computing, where I leverage the power of distributed systems " +
+        "to deliver scalable and flexible solutions. "
 }
