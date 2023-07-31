@@ -726,8 +726,8 @@ export const projects = [
   {
     id: "project-8",
     title: "Portfolio version 1",
-    // github: "https://github.com/mittal-parth/bank-landing-page-react",
-    // link: "https://bank-landing-page-parth.netlify.app/",
+    github: "https://github.com/Attoumidriss2001/Portfolio",
+    link: "https://attoumidriss2001.github.io/Portfolio/",
     image: portfolio,
     content:
         "A Personal portfolio website with Html,Css and Javascript.",
@@ -756,8 +756,8 @@ export const projects = [
   {
     id: "project-7",
     title: "Portfolio version 2",
-    // github: "https://github.com/mittal-parth/personal-portfolio",
-    // link: "https://parthmittal.netlify.app/",
+    github: "https://github.com/Attoumidriss2001/personal-portfolio-",
+    link: "driss-portfolio.netlify.app/",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
     stack: [
@@ -782,52 +782,36 @@ export const projects = [
   {
     id: "project-9",
     title: "Fire detection ",
-    // github: "https://github.com/mittal-parth/Freadom",
+    github: "https://github.com/Attoumidriss2001/projet-Detection-fire",
     // link: "",
     image: fire,
     content:
-      "A simple tool to help people to detect fire from the Cameras.",
+      "A simple tool to help people to detect fire from there Cameras.",
     stack: [
       {
         id: "icon-6",
         icon: FaPython,
         name: "Python with OpenCV"
       },
-      {
-        id: "icon-7",
-        icon: FaBrain,
-        name: "Machine Learning"
-      }
+      
 ,
+
+    ],
+  },
+  {
+    id: "project-8",
+    title: "Ecommerce website",
+    github: "https://github.com/Attoumidriss2001/EC2_commands_for_website-creation_with_wordpress/tree/main/8c35a05f43635da4cbd06b47c0d91e93-5963d5ebf42e61f7361714296571430cb4423ec7",
+    link: "https://github.com/Attoumidriss2001/EC2_commands_for_website-creation_with_wordpress/tree/main/8c35a05f43635da4cbd06b47c0d91e93-5963d5ebf42e61f7361714296571430cb4423ec7",
+    image: portfolio,
+    content: "An ecommerce website created with Amazon EC2 (Elastic Compute Cloud) ",
+    stack: [
+  
 
     ],
   },
 
 
-  
-  
-
-  // {
-  //   id: "project-10",
-  //   title: "GraphQL API",
-  //   github: "https://github.com/mittal-parth/GSDC-NITK-CRUD-API",
-  //   link: "",
-  //   image: graphql,
-  //   content:
-  //     "A Django based CRUD API using GraphQL to manage employees in an organization.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiGraphql,
-  //       name: "GraphQL"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiDjango,
-  //       name: "Django"
-  //     },
-  //   ],
-  // },
 ];
 
 export const blogPosts = [
