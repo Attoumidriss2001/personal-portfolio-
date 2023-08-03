@@ -71,7 +71,7 @@ import {
 import {DiCss3, DiJavascript1, DiMsqlServer, DiRuby} from "react-icons/di";
 import {IoLogoReact} from "react-icons/all.js";
 
-export const resumeLink = "https://drive.google.com/file/d/1A09d1dm_N-QEd6zqpFfUt46hzQiPHK38/view?usp=drive_link";
+export const resumeLink = "https://drive.google.com/file/d/1x2QfoYAa7c_5XlSgVj1Jd0vhX1F-86_a/view";
 export const repoLink = "";
 
 export const callToAction = "";
