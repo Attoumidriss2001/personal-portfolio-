@@ -659,44 +659,15 @@ export const openSourceContributions = [
 ];
 
 export const projects = [
+
   {
     id: "project-1",
-    title: "management of a supermarket",
+    title: "Ecommerce Application",
     github: "",
     link: "",
-    image: supermarket,
+    // image: ecomm,
     content:
-      "development of an Desktop App(management of a supermarket) with Java/JavaFx",
-    stack: [
-      {
-        id: "icon-3",
-        icon: SiJava,
-        name: "Java"
-      },
-
-      {
-        id: "icon-2",
-        icon: SiJava,
-        name: "JavaFX"
-      },
-
-      {
-        id: "icon-4",
-        icon: SiMysql,
-        name: "MySQL"
-      },
-
-
-    ],
-  },
-  {
-    id: "project-2",
-    title: "Ecommerce App",
-    github: "",
-    link: "",
-    image: ecomm,
-    content:
-      "Development of an Ecommerce App with framework Flutter",
+      "This development project aims to create an e-commerce application using the Flutter framework and integrating it with Firebase. The application will offer a user-friendly interface for product navigation, cart management, and the payment process. Users will be able to sign up and log in through Firebase authentication, ensuring their data is securely stored. Simultaneously, the design aspect of the application will be crafted using the Figma graphic design tool, allowing for the creation of a modern and visually appealing interface. Figma designs will be utilized to maintain consistency between the concepts and the actual implementation of the application. Once developed, the application will be deployed on major mobile platforms for customer use. Regular updates and maintenance will be conducted to ensure optimal performance and an enhanced user experience. Figma will play a crucial role in facilitating collaboration between designers and developers",
     stack: [
       {
         id: "icon-4",
@@ -724,42 +695,12 @@ export const projects = [
   },
 
   {
-    id: "project-8",
-    title: "Portfolio version 1",
-    github: "https://github.com/Attoumidriss2001/Portfolio",
-    link: "https://attoumidriss2001.github.io/Portfolio/",
-    image: portfolio,
-    content:
-        "A Personal portfolio website with Html,Css and Javascript.",
-    stack: [
-      {
-        id: "icon-2",
-        icon: FaHtml5,
-        name: "HTML5"
-      },
-
-      {
-        id: "icon-3",
-        icon: SiCss3,
-        name: "CSS3"
-      },
-
-      {
-        id: "icon-5",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-
-
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Portfolio version 2",
-    github: "https://github.com/Attoumidriss2001/personal-portfolio-",
-    link: "driss-portfolio.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
+    id: "project-2",
+    title: "Online Store",
+    github: "https://github.com/Attoumidriss2001/online_Shop_store_With_React",
+    // link: "driss-portfolio.netlify.app/",
+    // image: portfolio,
+    content: "The project is an impressive e-commerce store built using React, Firebase, and Material UI. Leveraging React's interactive component-based architecture, Firebase's real-time database and user authentication capabilities, and Material UI's aesthetic and user-friendly design elements, the application offers a seamless and responsive user experience across various devices. Key features include intuitive navigation, product search, detailed product pages, a shopping cart, secure payment processing, and real-time inventory updates. The development process involved overcoming challenges, learning valuable lessons, and implementing robust security measures. Overall, the project showcases the developer's proficiency in modern web development and the successful creation of a practical and visually appealing online shopping platform.",
     stack: [
       {
         id: "icon-1",
@@ -780,13 +721,13 @@ export const projects = [
   },
 
   {
-    id: "project-9",
+    id: "project-3",
     title: "Fire detection ",
     github: "https://github.com/Attoumidriss2001/projet-Detection-fire",
     // link: "",
-    image: fire,
+    // image: fire,
     content:
-      "A simple tool to help people to detect fire from there Cameras.",
+      "The program I developed utilizes Python and image processing techniques to detect fire through a camera. By capturing the live video stream, the program goes through several steps, including image preprocessing, segmentation to isolate potential fire regions, classification using machine learning methods to determine the presence of fire, and finally issuing an alert upon detection. Despite challenges related to changing lighting conditions and false alarms, improvements like using more advanced neural networks could make the program even more effective. This technology finds applications in security, surveillance, and fire prevention in various contexts such as buildings, drones, and security systems.",
     stack: [
       {
         id: "icon-6",
@@ -799,17 +740,31 @@ export const projects = [
     ],
   },
   {
-    id: "project-8",
-    title: "Ecommerce website",
+    id: "project-4",
+    title: "Ecommerce website with EC2",
     github: "https://github.com/Attoumidriss2001/EC2_commands_for_website-creation_with_wordpress/tree/main/8c35a05f43635da4cbd06b47c0d91e93-5963d5ebf42e61f7361714296571430cb4423ec7",
     link: "https://github.com/Attoumidriss2001/EC2_commands_for_website-creation_with_wordpress/tree/main/8c35a05f43635da4cbd06b47c0d91e93-5963d5ebf42e61f7361714296571430cb4423ec7",
-    image: portfolio,
-    content: "An ecommerce website created with Amazon EC2 (Elastic Compute Cloud) ",
+    // image: portfolio,
+    content: "This project aims to create an e-commerce website using WordPress with the assistance of an EC2 instance on the AWS platform (Amazon Web Services). Firstly, I configured an EC2 instance to obtain a virtual server in the cloud. Then, I installed Apache, PHP, and MySQL on this instance to host and manage the website's data. For setting up the e-commerce site, I installed WordPress and added WooCommerce plugins for specific e-commerce functionalities. Additionally, I customized the site by selecting a suitable theme. Prior to deployment, I conducted comprehensive testing to ensure everything works correctly and the site is secure. Once the site was ready, I made it accessible to the public by associating a public IP address. ",
     stack: [
   
 
     ],
   },
+    {
+    id: "project-5",
+    title: "AWS S3 Bucket and Website Configuration with Terraform",
+    github: "https://github.com/Attoumidriss2001/AWS-S3-Bucket-and-Website-Configuration/tree/main/mys3StaticWebsite",
+     link: "https://github.com/Attoumidriss2001/AWS-S3-Bucket-and-Website-Configuration/tree/main/mys3StaticWebsite",
+    //image: portfolio,
+   content: "Using Terraform, I created an AWS S3 bucket to store and serve the static content of my website. This bucket acts as a reliable and scalable storage solution for web assets. For the website content, I uploaded index.html and error.html files to the bucket. These files contain the main page content and an error page, respectively. They are publicly readable as well. With the help of Terraform, I configured the AWS S3 bucket to serve my website content correctly. The index.html file serves as the index document, and the error.html file acts as the error document when needed.",
+    stack: [
+  
+
+    ],
+  },
+
+
 
 
 ];
@@ -944,7 +899,7 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "attoumi2001@gmail.com",
+    link: "https://wa.me/+212676874434",
   },
   // {
   //   id: "social-media-4",
